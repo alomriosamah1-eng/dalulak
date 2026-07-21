@@ -1,0 +1,24 @@
+{
+  "experiences": [
+    {
+      "name": "dalylak",
+      "slug": "dalylak",
+      "platforms": ["ios", "android"],
+      "updates": {
+        "enabled": true,
+        "fallbackToCacheTimeout": 0
+      },
+      "ios": {
+        "buildNumber": "1",
+        "bundleIdentifier": "com.dalylak.app"
+      },
+      "android": {
+        "versionCode": 1,
+        "package": "com.dalylak.app"
+      }
+    }
+  ],
+  "submit": {
+    "production": {}
+  }
+}

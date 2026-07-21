@@ -1,0 +1,24 @@
+{
+  "name": "dalylak-crawler",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "crawl": "npx tsx src/index.ts",
+    "crawl:awesome": "npx tsx src/index.ts --source=awesome-lists",
+    "crawl:github": "npx tsx src/index.ts --source=github",
+    "crawl:platforms": "npx tsx src/index.ts --source=platforms",
+    "check-links": "npx tsx src/tools/checkLinks.ts",
+    "export": "npx tsx src/tools/exportData.ts",
+    "validate": "npx tsx src/tools/validateData.ts",
+    "stats": "npx tsx src/tools/stats.ts",
+    "typecheck": "tsc --noEmit",
+    "postinstall": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.46.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "@types/node": "^20.0.0"
+  }
+}

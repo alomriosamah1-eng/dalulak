@@ -1,0 +1,29 @@
+{
+  "name": "دليلك التعليمي والعملي",
+  "short_name": "دليلك",
+  "description": "منصة تجمع أفضل الموارد التعليمية المجانية، أدوات الإنتاج، منصات العمل الحر، وقنوات اليوتيوب التعليمية في مكان واحد",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#8B5CF6",
+  "orientation": "portrait-primary",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "/dalylak-logo.svg",
+      "sizes": "120x120",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "48x48 72x72 96x96",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education", "productivity", "career"],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
